@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 html {
-  background-image: url("./bg.gif");
+  background-image: url("assets/bg.gif");
   background-repeat: no-repeat;
   background-size: 100%;
 }
