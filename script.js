@@ -1,0 +1,1 @@
+if (window.screen.width < 1920) { alert("This website is expected to see in the resolution of 1920x1080 and window maximized. The contents of the website might be misplaced."); }
