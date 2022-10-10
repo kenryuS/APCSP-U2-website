@@ -2,8 +2,8 @@
 
 html {
   background-image: url("assets/bg.gif");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-repeat: repeat-y;
+  background-size: contain;
 }
 
 .page {
@@ -14,6 +14,12 @@ html {
   border-style: solid;
   border-color: rgb(7, 156, 255);
   border-radius: 5px;
+}
+
+code {
+  background-color: rgb(172, 172, 172);
+  padding: 2px 2px 2px 2px;
+  border-radius: 6px;
 }
 
 .spacer {
@@ -29,16 +35,54 @@ html {
   text-align: center;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px;
   font-style: normal; font-variant: normal; font-weight: 400;
-  line-height: 23px;
+  line-height: 25px;
   height: 25px;
 }
 
-main {
+main ol li {
+  padding-left: 15px;
+  /* padding-top: 50px; */
   display: flex;
+  justify-content: space-between;
 }
 
-main ol li {
-  margin-left: 15px;
+.tlinedesc {
+  height: 250px;
+  width: 500px;
+  line-height: 1.5rem;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1rem;
+}
+
+.tlineimg {
+  width: 500px;
+}
+
+.year {
+  position: absolute;
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+  font-size: 4rem;
+  color: rgb(122, 122, 122);
+  text-shadow: revert;
+}
+
+.tline {
+  background-color: rgb(88, 88, 88);
+  width: 2vw;
+}
+
+.timg {
+  position: absolute;
+  height: 200px;
+  padding-top: 36px;
+  padding-left: 1.75vw;
+}
+
+.contact {
+  margin: auto;
+  width: 50%;
 }
 
 .contact p {
@@ -68,8 +112,11 @@ main ol li {
   border-width: 3px;
   border-style: solid;
   height: 60px;
+  text-align: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px;
 }
 
 .contact table th {
   height: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px;
 }
